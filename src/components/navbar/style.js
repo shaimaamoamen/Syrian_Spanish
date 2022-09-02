@@ -11,6 +11,7 @@ border-bottom:1px solid #000;
 export const Logo=Styled.div`
 width:50%;
 float:left;
+margin-top:15px;
 @media(max-width:991px){
     width: 100%;
     float: none;
@@ -56,6 +57,9 @@ font-weight:bold;
 &:hover{
     color:#eb5424;
 }
+`
+export const Image=Styled.img`
+transform:translate(0px,10px);
 `
 
 

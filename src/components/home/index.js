@@ -1,5 +1,5 @@
 import React from "react";
-import {HomeSection,HomeInformation,HomeTitle,Span} from './style.js'
+import {HomeSection,HomeInformation,HomeTitle} from './style.js'
 const Home=()=>{
     return(
         <HomeSection>
@@ -8,9 +8,6 @@ const Home=()=>{
                     <HomeTitle>
                          Syrian Spanish 
                     </HomeTitle> 
-                     <Span>
-                         Company
-                     </Span>
                 </HomeInformation>
             </div>
         </HomeSection>

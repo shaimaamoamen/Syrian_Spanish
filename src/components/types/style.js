@@ -6,22 +6,18 @@ padding-top: 20px;
 overflow: hidden;
 text-align:center;
 `
-export const TypesTitle=Styled.h1`
-text-align: center;
-font-size: 45px;
-font-weight:bold;
-padding:10px;
-`
+
 export const Div=Styled.div`
 font-weight:normal;
 font-size:25px;
 text-align:center;
 color:grey;
+padding-top:15px;
 
 `
 
 export const ImageWrapper=Styled.div`
-transform:translate(0,35px);
+transform:translate(0,50px);
 width: 20%;
 float: left;
 font-size: 0;

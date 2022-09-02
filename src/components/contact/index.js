@@ -1,15 +1,12 @@
 import React, { Fragment } from "react";
 import Footer from './../footer'
-import{ContactSection,ContactTitle,Form,FormInput,InputText,InputEmail,InputExp,TextArea,Input,InputSubmit,Span}from './style.js'
+import{ContactSection,Form,FormInput,InputText,InputEmail,InputExp,TextArea,Input,InputSubmit}from './style.js'
 const Contact=()=>{
     return(
         <React.Fragment>
        <ContactSection>
            <div className="container">
-               <ContactTitle>
-                   <Span>Drop</Span>Me Aline
-               </ContactTitle>
-               <Form action="">
+                   <Form action="">
                    <FormInput>
                        <InputText type='text' placeholder="Your Name"/>
                        <InputEmail type='email' placeholder="Your Email"/>

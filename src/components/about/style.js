@@ -4,13 +4,6 @@ export const AboutData=Styled.div`
 padding: 50px 0;
 overflow: hidden;
 `
-export const AboutDataTitle=Styled.h1`
-font-size: 40px; 
-
-font-weight:bold;
-`
-
-
 export const AboutSection=Styled.div`
 width: 40%;
 float: left;

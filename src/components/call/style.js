@@ -1,7 +1,8 @@
 import Styled from 'styled-components'
 export const CallSection=Styled.div`
 height: auto;
-overflow: hidden; 
+overflow: hidden;
+margin-top:60px; 
 `
 export const CallData=Styled.div`
 width: 50%;

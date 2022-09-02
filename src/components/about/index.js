@@ -1,13 +1,11 @@
 import React from "react";
-import{AboutDataTitle,AboutData,AboutSection,AboutSectionTitle,AboutDesc,AboutInfo,AboutList,AboutItem,AboutItemSpan,AboutInfoTitle,Con,Image,Span} from'./style.js'
+import{AboutData,AboutSection,AboutSectionTitle,AboutDesc,AboutInfo,AboutList,AboutItem,AboutItemSpan,AboutInfoTitle,Con,Image,Span} from'./style.js'
 
 const About=()=>{ 
    return(
        
        <AboutData>
-               <AboutDataTitle>
-                       About 
-                   </AboutDataTitle>
+              
                    <Image>
            <Con>
               

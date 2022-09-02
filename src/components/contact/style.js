@@ -3,16 +3,7 @@ export const ContactSection=Styled.div`
 padding: 50px 0;
 text-align: center;
 `
-export const ContactTitle=Styled.h2`
-font-size: 60px;
-margin-bottom: 30px;
-@media (max-width:575px){
-    font-size: 40px;
-}
-`
-export const Span=Styled.span`
-font-weight: normal;
-`
+
 export const Form=Styled.form`
 width: 70%;
 margin: auto;

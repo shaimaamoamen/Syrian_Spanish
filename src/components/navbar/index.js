@@ -1,11 +1,11 @@
 import React  from "react";
-import { NavbarSection,Logo,UlList,ListItem,Anchor,Page,SamePage } from "./style.js";
+import { NavbarSection,Logo,UlList,ListItem,Page,SamePage,Image } from "./style.js";
 const Navbar=()=>{
     return(
        <NavbarSection>
            <div className="container">
                <Logo>
-                   <img src="images/soap.png" width="150px" height="50px"/>
+                   <img src="images/soap.png"  width="150px" height="50px"/>
                </Logo>
                <UlList>
                    <ListItem>
@@ -25,7 +25,7 @@ const Navbar=()=>{
                    </ListItem>
                    <ListItem>
                        <SamePage to="/call">
-                           <img src="images/call1.png" width="30px" height="30px"/>
+                           <Image src="images/call1.png" width="30px" height="30px"/>
                        </SamePage>
                    </ListItem>
                    

@@ -1,117 +1,58 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.css';
-import Carousel from 'react-bootstrap/Carousel';
-import './price.css'
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
+import "./price.css"
 export default function Price() {
+  var settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    
+  };
   return (
-   <div>
-       <h1>Price</h1> 
-    <div className='div1' >
+    <div className='div1'>
+    <Slider {...settings}>
       
-      <Carousel>
-        <Carousel.Item interval={3000}>
-          <img 
-            className="d-block w-100 img1"
-src="images/1.jpeg"
-            alt=""
-          />
-          <Carousel.Caption>
-            <h3 >EGP 27.5 </h3>
-            
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item interval={3000}>
-          <img 
-            className="d-block w-100 img1"
-src="images/2.jpeg"
-            alt=""
-          />
-          <Carousel.Caption>
-            <h3>EGP 27.5</h3>
-        
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item interval={3000}>
-          <img
-            className="d-block w-100 img1"
-src="images/3.jpeg"
-            alt=""
-          />
-          <Carousel.Caption>
-            <h3>EGP 27.5</h3>
-            
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item interval={3000}>
-          <img
-            className="d-block w-100 img1"
-src="images/4.jpeg"
-            alt=""
-          />
-          <Carousel.Caption>
-            <h3>EGP 27.5 </h3>
-            
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item inter val={3000}>
-          <img
-            className="d-block w-100 img1"
-src="images/5.jpeg"
-            alt=""
-          />
-          <Carousel.Caption>
-            <h3>EGP 27.5 </h3>
-            
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item interval={3000}>
-          <img
-            className="d-block w-100 img1"
-src="images/6.jpeg"
-            alt=""
-          />
-          <Carousel.Caption>
-            <h3>EGP 27.5 </h3>
-            
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item interval={3000}>
-          <img
-            className="d-block w-100 img1"
-src="images/7.jpeg"
-            alt=""
-          />
-          <Carousel.Caption>
-            <h3>EGP 27.5 </h3>
-            
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item interval={3000}>
-          <img
-            className="d-block w-100 img1"
-src="images/8.jpeg"
-            alt=""
-          />
-          <Carousel.Caption>
-            <h3>EGP 27.5 </h3>
-            
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item interval={3000}>
-          <img
-            className="d-block w-100 img1"
-src="images/9.jpeg"
-            alt=""
-          />
-          <Carousel.Caption>
-            <h3 >EGP 27.5 </h3>
-            
-          </Carousel.Caption>
-        </Carousel.Item>
-        
-      </Carousel>
-    </div>
+      <div>
+       <img  src="images/1.jpeg" width="400px" height="250px"/>
+        <h1>EGP 27.5</h1>              
+      </div>
+      <div>
+        <img src="images/2.jpeg" width="400px" height="250px"/>
+        <h1>EGP 27.5</h1>  
+      </div>
+      <div>
+      <img  src="images/3.jpeg" width="400px" height="250px"/>
+      <h1>EGP 27.5</h1>  
+      </div>
+      <div>
+      <img  src="images/4.jpeg" width="400px" height="250px"/>
+      <h1>EGP 27.5</h1>  
+      </div>
+      <div>
+      <img  src="images/5.jpeg" width="400px" height="250px"/>
+      <h1>EGP 27.5</h1>  
+      </div>
+      <div>
+      <img  src="images/6.jpeg" width="400px" height="250px"/>
+      <h1>EGP 27.5</h1>  
+      </div>
+      <div>
+      <img  src="images/7.jpeg" width="400px" height="250px"/>
+      <h1>EGP 27.5</h1>  
+      </div>
+      <div>
+      <img  src="images/8.jpeg" width="400px" height="250px"/>
+      <h1>EGP 27.5</h1>  
+      </div>
+      <div>
+      <img  src="images/6.jpeg" width="400px" height="250px"/>
+      <h1>EGP 27.5</h1>  
+      </div>
+    </Slider>
    </div>
-  
   );
 }

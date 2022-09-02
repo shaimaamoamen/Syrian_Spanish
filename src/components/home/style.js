@@ -30,7 +30,3 @@ export const HomeTitle=Styled.h1`
         font-size: 30px; 
     }
 `
-export const Span=Styled.span`
-color: #eb5424;
-font-size:40px;
-`
